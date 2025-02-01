@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "this is mlm project which provide feature like recharge etc..",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +13,19 @@
     "mysql"
   ],
   "author": "shivam anand",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "compression": "^1.7.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "fs": "^0.0.1-security",
+    "helmet": "^8.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.12.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.5"
+  }
 }
