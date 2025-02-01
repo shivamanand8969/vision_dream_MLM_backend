@@ -5,7 +5,9 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon add.js"
   },
   "keywords": [
     "node.js",
@@ -15,6 +17,7 @@
   "author": "shivam anand",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "cluster": "^0.7.7",
     "compression": "^1.7.5",
     "dotenv": "^16.4.7",
@@ -22,10 +25,14 @@
     "express-validator": "^7.2.1",
     "fs": "^0.0.1-security",
     "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
     "multer": "^1.4.5-lts.1",
     "mysql2": "^3.12.0",
     "os": "^0.1.2",
     "path": "^0.12.7",
     "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
