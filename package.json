@@ -1,0 +1,16 @@
+{
+  "name": "vision_dream_mlm_backend",
+  "version": "1.0.0",
+  "description": "this is mlm project which provide feature like recharge etc..",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "mysql"
+  ],
+  "author": "shivam anand",
+  "license": "ISC"
+}
